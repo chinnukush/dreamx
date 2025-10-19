@@ -318,10 +318,9 @@ async def send_movie_update(bot, base_name):
 
             text = generate_movie_message(movie_doc, base_name)
             buttons = InlineKeyboardMarkup([[
-                InlineKeyboardButton(
-                    'ɢᴇᴛ ғɪʟᴇs',
-                    url=f"https://t.me/{temp.U_NAME}?start=getfile-{base_name.replace(' ', '-')}"
-                )
+                InlineKeyboardButton('♻️ ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ɢᴇᴛ ғɪʟᴇ ♻️', url=f"https://t.me/{temp.U_NAME}?start=getfile-{base_name.replace(' ', '-')}")
+            ],[
+                InlineKeyboardButton('💥 ɪᴏɪɴ ɪɴꜱᴛᴀɢʀᴀᴍ 💥', url=f'https://www.instagram.com/hari_moviez?igsh=MzB2YnkzZ2J5a3g3')
             ]])
 
             if movie_doc.get("poster_url") and not LINK_PREVIEW:
@@ -367,11 +366,10 @@ async def update_movie_message(bot, base_name):
 
         text = generate_movie_message(movie_doc, base_name)
         buttons = InlineKeyboardMarkup([[
-            InlineKeyboardButton(
-                'ɢᴇᴛ ғɪʟᴇs',
-                url=f"https://t.me/{temp.U_NAME}?start=getfile-{base_name.replace(' ', '-')}"
-            )
-        ]])
+                InlineKeyboardButton('♻️ ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ɢᴇᴛ ғɪʟᴇ ♻️', url=f"https://t.me/{temp.U_NAME}?start=getfile-{base_name.replace(' ', '-')}")
+            ],[
+                InlineKeyboardButton('💥 ɪᴏɪɴ ɪɴꜱᴛᴀɢʀᴀᴍ 💥', url=f'https://www.instagram.com/hari_moviez?igsh=MzB2YnkzZ2J5a3g3')
+            ]])
 
         message_id = movie_doc.get("message_id")
         is_photo = movie_doc.get("is_photo", False)
