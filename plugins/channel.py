@@ -320,7 +320,7 @@ async def send_movie_update(bot, base_name):
             buttons = InlineKeyboardMarkup([[
                 InlineKeyboardButton('♻️ ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ɢᴇᴛ ғɪʟᴇ ♻️', url=f"https://t.me/{temp.U_NAME}?start=getfile-{base_name.replace(' ', '-')}")
             ],[
-                InlineKeyboardButton('💥 ɪᴏɪɴ ɪɴꜱᴛᴀɢʀᴀᴍ 💥', url=f'https://www.instagram.com/hari_moviez?igsh=MzB2YnkzZ2J5a3g3')
+                InlineKeyboardButton('💥 🅙︎🅞︎🅘︎🅝︎ 🅒︎🅗︎🅐︎🅝︎🅝︎🅔︎🅛︎ 💥', url=f'https://t.me/+W5TUbIdPdQo3MGJl')
             ]])
 
             if movie_doc.get("poster_url") and not LINK_PREVIEW:
@@ -368,7 +368,7 @@ async def update_movie_message(bot, base_name):
         buttons = InlineKeyboardMarkup([[
                 InlineKeyboardButton('♻️ ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ɢᴇᴛ ғɪʟᴇ ♻️', url=f"https://t.me/{temp.U_NAME}?start=getfile-{base_name.replace(' ', '-')}")
             ],[
-                InlineKeyboardButton('💥 ɪᴏɪɴ ɪɴꜱᴛᴀɢʀᴀᴍ 💥', url=f'https://www.instagram.com/hari_moviez?igsh=MzB2YnkzZ2J5a3g3')
+                InlineKeyboardButton('💥 🅙︎🅞︎🅘︎🅝︎ 🅒︎🅗︎🅐︎🅝︎🅝︎🅔︎🅛︎ 💥', url=f'https://t.me/+W5TUbIdPdQo3MGJl')
             ]])
 
         message_id = movie_doc.get("message_id")
