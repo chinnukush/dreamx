@@ -320,7 +320,7 @@ async def send_movie_update(bot, base_name):
             buttons = InlineKeyboardMarkup([[
                 InlineKeyboardButton('♻️ ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ɢᴇᴛ ғɪʟᴇ ♻️', url=f"https://t.me/{temp.U_NAME}?start=getfile-{base_name.replace(' ', '-')}")
             ],[
-                InlineKeyboardButton('💥Ⓜ︎Ⓞ︎Ⓥ︎Ⓘ︎Ⓔ︎ Ⓡ︎Ⓔ︎Ⓠ︎Ⓤ︎Ⓔ︎Ⓢ︎Ⓣ︎ Ⓖ︎Ⓡ︎Ⓞ︎Ⓤ︎Ⓟ︎💥', url=f'https://t.me/+q101Ee1l-ycwZTU1')
+                InlineKeyboardButton('Ⓜ︎Ⓞ︎Ⓥ︎Ⓘ︎Ⓔ︎ Ⓖ︎Ⓡ︎Ⓞ︎Ⓤ︎Ⓟ︎', url=f'https://t.me/+q101Ee1l-ycwZTU1')
             ]])
 
             if movie_doc.get("poster_url") and not LINK_PREVIEW:
@@ -368,7 +368,7 @@ async def update_movie_message(bot, base_name):
         buttons = InlineKeyboardMarkup([[
                 InlineKeyboardButton('♻️ ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ɢᴇᴛ ғɪʟᴇ ♻️', url=f"https://t.me/{temp.U_NAME}?start=getfile-{base_name.replace(' ', '-')}")
             ],[
-                InlineKeyboardButton('💥Ⓜ︎Ⓞ︎Ⓥ︎Ⓘ︎Ⓔ︎ Ⓡ︎Ⓔ︎Ⓠ︎Ⓤ︎Ⓔ︎Ⓢ︎Ⓣ︎ Ⓖ︎Ⓡ︎Ⓞ︎Ⓤ︎Ⓟ︎💥', url=f'hhttps://t.me/+q101Ee1l-ycwZTU1')
+                InlineKeyboardButton('Ⓜ︎Ⓞ︎Ⓥ︎Ⓘ︎Ⓔ︎ Ⓖ︎Ⓡ︎Ⓞ︎Ⓤ︎Ⓟ︎', url=f'hhttps://t.me/+q101Ee1l-ycwZTU1')
             ]])
 
         message_id = movie_doc.get("message_id")
